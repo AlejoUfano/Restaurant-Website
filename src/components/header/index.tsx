@@ -14,12 +14,12 @@ type Props = {
 };
 
 const navigation: Array<NavigationType> = [
-  { name: "Home", href: "#", current: true },
-  { name: "Top", href: "#", current: false },
-  { name: "Booking", href: "#", current: false },
-  { name: "Services", href: "#", current: false },
-  { name: "Menu", href: "#", current: false },
-  { name: "Contact", href: "#", current: false },
+  { name: "Home", href: "#Home", current: true },
+  { name: "Top", href: "#Top", current: false },
+  { name: "Booking", href: "#Booking", current: false },
+  { name: "Services", href: "#Services", current: false },
+  { name: "Menu", href: "#Menu", current: false },
+  { name: "Contact", href: "#Contact", current: false },
 ];
 
 function classNames(...classes) {
