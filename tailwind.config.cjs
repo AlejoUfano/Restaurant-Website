@@ -12,6 +12,10 @@ module.exports = {
         "light-white": "#fff5ec",
         cream: "#ffedde",
       },
+      backgroundImage: {
+        "pizza-bg": "url('./src/assets/pizza.png')",
+        "burger-bg": "url('./src/assets/burger.png')",
+      },
     },
     screens: {
       xs: "480px",
