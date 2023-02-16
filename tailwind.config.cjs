@@ -10,7 +10,8 @@ module.exports = {
         "main-gray": "#707070",
         "main-green": "#31a24c",
         "light-white": "#fff5ec",
-        cream: "#ffedde",
+        "dark-cream": "#ffedde",
+        "light-cream": "#fff5ec",
       },
       backgroundImage: {
         "pizza-bg": "url('./src/assets/pizza.png')",
