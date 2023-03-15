@@ -11,7 +11,7 @@ type Props = {
 const TopProductCard = ({ img, title, subtitle, location }: Props) => {
   return (
     <div
-      className={`flex h-[21rem] w-11/12 flex-col items-center justify-end rounded-lg md:h-[35rem] md:w-[35rem] bg-${img} bg-cover bg-center`}
+      className={`flex h-[21rem] w-11/12 flex-col items-center justify-end rounded-lg ${img} bg-cover bg-center md:h-[35rem] md:w-[35rem]`}
     >
       <div className="z-20 flex w-full flex-col rounded-b-lg bg-main-red pb-3 opacity-60 md:pb-6">
         <div className="space-y-1 px-5 pt-4 md:space-y-4 md:px-10 md:pt-8">

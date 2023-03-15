@@ -30,7 +30,7 @@ const Header = ({ isTopOfPage }: Props) => {
   const flexBetween = "flex items-center justify-between";
   const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
   const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
-  const HeaderBackground = isTopOfPage ? "" : "bg-cream drop-shadow";
+  const HeaderBackground = isTopOfPage ? "" : "bg-light-cream drop-shadow";
   const iconColor = isTopOfPage ? "text-white" : "text-main-red";
 
   return (
@@ -219,7 +219,7 @@ const Header = ({ isTopOfPage }: Props) => {
           {/* CLOSE ICON */}
           <div className="flex justify-end p-12">
             <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
-              <XMarkIcon className="h-6 w-6 text-cream" />
+              <XMarkIcon className="text-cream h-6 w-6" />
             </button>
           </div>
           {/* MENU ITEMS */}
