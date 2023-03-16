@@ -6,14 +6,14 @@ import TopProductCard from "../topProductCard";
 type Props = {};
 const topProducts: Array<TopFoodProducts> = [
   {
-    img: "pizza-bg",
+    img: "bg-[url(@/assets/pizza.png)]",
     title: "Fire Water",
     subtitle:
       "we are all about we are all about to the fullest and all content dining out or in!dining out or in!",
     location: "New Market",
   },
   {
-    img: "burger-bg",
+    img: "bg-[url(@/assets/burger.png)]",
     title: "The Wonton ",
     subtitle:
       "we are all about we are all about to the fullest and all content dining out or in!dining out or in!",
@@ -23,7 +23,7 @@ const topProducts: Array<TopFoodProducts> = [
 
 const Top = (props: Props) => {
   return (
-    <section id="Top" className="flex h-fit w-full flex-col bg-cream">
+    <section id="Top" className="flex h-fit w-full flex-col bg-light-cream">
       <div className="mt-28 flex w-5/6 flex-col items-center self-center py-4 md:mt-36 md:flex-row md:justify-between">
         <div className="mb-2 flex  h-full md:mb-0 md:w-2/5  md:space-x-8">
           <div className="h-fill mr-4 flex w-8 bg-main-red md:mr-0 md:w-12"></div>
