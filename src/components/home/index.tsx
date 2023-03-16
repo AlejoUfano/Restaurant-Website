@@ -10,7 +10,7 @@ const Home = (props: Props) => {
   return (
     <section
       id="Home"
-      className="flex h-fit w-full flex-col items-center bg-[linear-gradient(90deg,var(--tw-gradient-stops))] from-[#ffedde_74%] via-[#ffedde_13%] to-[#fe043c_13%] md:justify-center md:pb-8"
+      className="bg-[conic-gradient(at center bottom, rgb(255, 255, 255), rgb(14, 165, 233), rgb(14, 165, 233))] flex h-fit w-full flex-col items-center from-[#ffedde_74%] via-[#ffedde_13%] to-[#fe043c_13%] md:justify-center md:pb-8"
     >
       <div className="mt-20 flex w-5/6 flex-col items-center md:mt-32 md:flex-row md:justify-start">
         {/* LEFT DIV */}
