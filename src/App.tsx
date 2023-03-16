@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Booking from "./components/booking";
 import Header from "./components/header";
 import Home from "./components/home";
 import Top from "./components/top";
@@ -22,6 +23,7 @@ function App() {
       <Header isTopOfPage={isTopOfPage} />
       <Home />
       <Top />
+      <Booking />
     </div>
   );
 }
